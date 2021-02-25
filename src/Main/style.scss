@@ -1,0 +1,55 @@
+.content--total {
+  border: 1px solid black !important;
+  .colum-left {
+    padding: 0px 47px !important;
+    border-right: 1px solid black !important;
+    .form-item-title {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .form-content-date-and-select {
+      display: flex;
+      div {
+        width: 100% !important;
+      }
+      div:nth-child(1) {
+        padding-right: 10px;
+      }
+      div:nth-child(2) {
+        p {
+          padding-left: 10px;
+        }
+        padding-left: 10px;
+      }
+    }
+    .btn-add-item {
+      width: 100%;
+      border: none;
+      background-color: rgb(92 184 92);
+    }
+  }
+  .colum-right {
+    padding: 0px 47px !important;
+    .content-title {
+      margin-top: 20px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .content-list-item {
+      .ant-checkbox-wrapper {
+        line-height: 31px !important;
+      }
+      justify-content: space-between;
+      display: flex;
+      padding: 10px;
+      border: 1px solid black;
+      margin-bottom: 10px;
+      .group-list-item {
+        .button-detail {
+          margin-right: 10px;
+        }
+        display: flex;
+      }
+    }
+  }
+}
