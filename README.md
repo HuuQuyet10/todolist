@@ -1,8 +1,13 @@
-Getting started
+## Getting started
+
 Install:
 
+```
 yarn install
-yarn start
+```
 
-checkout branch develop
-done
+Start the project locally:
+
+```
+yarn start
+```
