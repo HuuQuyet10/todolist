@@ -1,4 +1,5 @@
 .content--total {
+  // min-height: 100vh;
   border: 1px solid black !important;
   .colum-left {
     padding: 0px 47px !important;
@@ -29,6 +30,8 @@
     }
   }
   .colum-right {
+    height: 100vh;
+    overflow-y: scroll;
     padding: 0px 47px !important;
     .content-title {
       margin-top: 20px;
