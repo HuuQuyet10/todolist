@@ -2,7 +2,7 @@
 
 Checkout branch: 
 ```
-git checkout branch develop
+git checkout develop
 ```
 Install:
 ```
